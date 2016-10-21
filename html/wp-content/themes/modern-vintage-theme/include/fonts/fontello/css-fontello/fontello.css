@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?38847994');
+  src: url('../font/fontello.eot?38847994#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?38847994') format('woff'),
+       url('../font/fontello.ttf?38847994') format('truetype'),
+       url('../font/fontello.svg?38847994#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?38847994#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0px;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-behanceicon:before { content: '\e800'; } /* '' */
+.icon-soundcloudicon:before { content: '\e80f'; } /* '' */
+.icon-dribbbleicon:before { content: '\e802'; } /* '' */
+.icon-facebookicon:before { content: '\e803'; } /* '' */
+.icon-flickricon:before { content: '\e804'; } /* '' */
+.icon-googleplusicon:before { content: '\e805'; } /* '' */
+.icon-instagramicon:before { content: '\e806'; } /* '' */
+.icon-linkedinicon:before { content: '\e807'; } /* '' */
+.icon-deviantarticon:before { content: '\e801'; } /* '' */
+.icon-skypeicon:before { content: '\e809'; } /* '' */
+.icon-tumblricon:before { content: '\e80a'; } /* '' */
+.icon-twittericon:before { content: '\e80b'; } /* '' */
+.icon-ustreamicon:before { content: '\e80c'; } /* '' */
+.icon-vimeoicon:before { content: '\e80d'; } /* '' */
+.icon-youtubeicon:before { content: '\e80e'; } /* '' */
+.icon-pinteresticon:before { content: '\e808'; } /* '' */

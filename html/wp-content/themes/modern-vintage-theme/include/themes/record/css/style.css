@@ -1,0 +1,1363 @@
+/* ----------------------------------------------------------------------------
+Theme Style: Record
+-------------------------------------------------------------------------------  */
+
+
+
+body {
+       color: #efdac9;
+       background-color: #1b1716;
+}
+
+a {
+    color: #cf852c;
+}
+
+a:hover,
+a:active,
+a:focus {
+  
+    color: #efdac9;
+  }
+
+/* Typography                                   1-
+================================================== */
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #efdac9;
+  
+}
+    
+/* Modern Vintage style                         
+================================================== */
+
+.extra_a a {
+	color: #efdac9;
+	}
+	
+.extra_a a:hover {
+	color: #cf852c;
+	}
+	
+	
+	
+
+
+/* Navigation                                   4-
+================================================== */
+
+
+#navigation {
+    background-image: url(../images/bg_navigation.jpg);
+    }
+#main-menu > li > a {
+    color: #efdac9 ;	
+
+}
+#main-menu > li > a:hover {
+    color: #28221a ;	
+
+}
+
+#main-menu li.current_page_item a {
+	color: #28221a !important;
+	}
+
+#main-menu li.current-menu-item a {
+	color: #28221a !important;
+	}
+
+
+
+#main-menu > li.menu-item-has-children:before {
+    color: #6F4559;
+    }
+
+.current a {
+    color: #1a0f0c !important;	
+    }
+    
+ul.sub-menu > li > a {
+     background-color: #cf852c;
+	color: #efdac9;
+	border-color: #28221a;
+}
+
+ul.sub-menu > li > a:hover {
+	background-color: #28221a; 
+	color: #efdac9 !important;
+	}
+
+ul.sub-menu > li:first-child {
+	border-color: #28221a;
+	}
+
+ul.sub-menu ul.sub-menu > li:first-child {
+	border-color: #444;
+	}
+
+ul.sub-menu > li.menu-item-has-children:before {
+	color: #6F4559;
+	}
+
+/* Mobile Navigation */
+
+.flexnav.flexnav-show {
+	background: #efdac9;
+	}
+
+.flexnav li a {
+	color: #28221a;
+	background: #efdac9;
+	border-color: #cf852c;
+	}
+.flexnav li a:hover {
+     color: #cf852c;
+	}
+	
+.flexnav li ul li a { /* Livel 2 */
+	background: #efdac9;
+     border-color: #cf852c;
+     color: #28221a;
+	}
+.flexnav ul li ul li a { /* Livel 3 */
+	background: #efdac9; 
+	}
+.flexnav ul li ul li ul li a { /* Livel 4 */
+	background: #efdac9;
+	}
+	
+.flexnav li ul.sub-menu > li:first-child {
+     border-color: #cf852c;
+}	
+
+/* === Button Togle level Menu ===  */
+
+
+.flexnav .touch-button_li {
+	background: #cf852c;
+	color: #efdac9;
+	}
+.flexnav .touch-button_li .navicon {
+	color: #666;
+	}
+
+
+
+
+
+
+
+
+
+/* Navigation Mobile                            5-
+================================================== */
+
+
+.menu-nav i {
+     color: #efdac9;
+     transition: all 0.3s ease 0s;
+     -webkit-transition: all 0.3s ease 0s;
+     -o-transition: all 0.3s ease 0s;
+     -moz-transition: all 0.3s ease 0s;
+}
+.menu-nav i:hover {
+     color: #28221a;
+     transition: all 0.3s ease 0s;
+     -webkit-transition: all 0.3s ease 0s;
+     -o-transition: all 0.3s ease 0s;
+     -moz-transition: all 0.3s ease 0s;
+}
+
+
+#navigation-mobile {
+     background: #efdac9;
+}
+
+
+#menu-nav-mobile li {
+    border-top: 1px dashed #1f1311;
+}
+
+
+#navigation-mobile li a {
+      color: #1f1311;
+ }
+
+#navigation-mobile li a:hover {
+    color: #E96045;
+}
+
+
+#menu-nav-mobile ul.sub-menu li {
+     border-top: 1px dashed #515560;
+}
+
+#menu-nav-mobile .menu-parent-item i {
+	    color: #1f1311;
+}
+
+
+
+/* Sections                                     6-
+================================================== */
+
+.head_bg {
+	background-size: 177px 177px;
+	background-image: url(../images/bg1.jpg) !important;
+	
+     }
+
+.alternate-bg1 {
+	background-size: 177px 177px;
+	background-image: url(../images/bg1.jpg);
+	
+     }
+
+.alternate-bg2 {
+	background-size: 177px 177px;
+     background-image: url(../images/bg2.jpg);
+     }
+
+
+.page_theme {
+	background-size: 177px 177px;
+	background-image: url(../images/bg2.jpg);
+     }
+
+
+
+
+
+
+
+
+/* Moder Vintage Styling                        7-
+================================================== */
+
+.section_divider {
+         background-color: #cf852c;
+     }
+
+.divider {
+        background-color: #cf852c;
+     }
+
+.divider-post {
+     border-bottom: 1px dashed #efdac9;
+     }
+h1.text_tit {
+        color: #efdac9;
+       }
+
+h1.text_title_section {
+       color: #efdac9;
+       }
+
+h2.text_intertit {
+       color: #cf852c;
+    
+     }
+h2.text_intertit p {
+     color: #cf852c;
+     }
+
+
+h2.introduction {
+        color: #cf852c;
+        }
+
+
+h2.text_archive {
+        color: #efdac9;
+         }
+
+.frame_portfolio {
+        border: 10px solid #efdac9;
+       }
+     
+.portfolio_tit {
+   	background-color: #efdac9;
+	
+     }
+     
+.frame_scrol {
+        border: 10px solid #efdac9;
+  
+     }
+
+
+.frame {
+     border: 10px solid #efdac9;
+     
+   
+     }
+
+.frame_features {
+     border: 7px solid #efdac9;
+   
+        }
+
+.frame_avatar {
+     border: 5px solid #efdac9;
+  
+     }
+
+@media (max-width: 480px) {
+
+.frame {
+     border: 5px solid #efdac9;
+     }
+  
+.frame_features {
+     border: 5px solid #efdac9;
+     }
+
+}
+
+
+
+/* Modern Vintage Botton                        8-
+================================================== */
+.special {
+     background-image: url(../images/bg_load_ribbon.png);
+     color: #efdac9;
+        }
+	
+
+
+/* Social Share                                9-
+================================================== */
+.button {
+     background: #DCE0E0;
+    
+     }
+
+
+.icon i {
+     color: #fff;
+     }
+
+
+.slide p {
+        color: #fff;
+        }
+
+
+.facebook .icon, .facebook .slide {
+     background: #576779;
+     }
+
+.twitter .icon, .twitter .slide {
+     background: #4da8b6;
+     }
+
+.google .icon, .google .slide {
+     background: #b26344;
+     }
+
+.linkedin .icon, .linkedin .slide {
+     background: #3e7081;
+     }
+
+
+
+/* Blog page - Full - Sidebar                  10-
+================================================== */
+
+     
+.cat-meta-list li {
+         color: #efdac9;
+      }
+
+.cat-meta-list li i {
+     color: #cf852c;
+     }
+
+
+/* Portfolio Page - Full - Right Sidebar       11-
+================================================== */
+
+h2.headline_portfolio {
+     color: #efdac9;
+         }
+     
+span.child_right_side {
+     color: #cf852c;
+     }
+
+h2.text_intertit_portfolio {
+        color: #cf852c;
+    
+     }
+
+/* Footer                                      12-
+================================================== */
+
+footer {
+     background-color: #cf852c;
+   
+     }
+     
+     
+
+.bg_navigation_up {
+   
+     background-image: url(../images/bg_navigation_up.jpg);
+        }
+     
+.bg_navigation_down {
+      background-image: url(../images/bg_navigation_down.jpg);
+        }
+
+.footer_cont a span.foot_tit {
+     color: #efdac9;
+     -webkit-transition: all 0.3s ease 0s;
+     -o-transition: all 0.3s ease 0s;
+     transition: all 0.3s ease 0s;
+     -moz-transition: all 0.3s ease 0s;
+     }
+     
+.footer_cont a:hover span.foot_tit {
+     color: #cf852c;
+-webkit-transition: all 0.3s ease 0s;
+-o-transition: all 0.3s ease 0s;
+ transition: all 0.3s ease 0s;
+-moz-transition: all 0.3s ease 0s;
+     }
+span.scrollsections-navigation a {
+     color: #f7decc;
+     }
+	
+
+/* Team Section                                13-
+================================================== */
+
+
+.team_single .image .mask,
+.item .mask {
+     /*border:10px solid rgba(236, 131, 101, 0.155);*/
+     border:5px solid #efdac9;
+     }
+
+.img_team {
+        border: 5px solid #e47e65;
+     }
+     
+     
+.team_single .image {
+   
+     border:5px solid #efdac9;
+	     }
+
+.tit_team {
+     border-top: solid 1px #cf852c; 
+     border-bottom: solid 1px #cf852c; 
+     color: #efdac9;
+     color: #efdac9;
+     }
+
+.cont_team p {
+        color: #efdac9;
+     }
+
+
+
+
+/* ==  Menu Filter Portfolio  == */
+
+	
+nav#filter li {
+	background: #cf852c ;
+	}
+	
+.append_img {
+	background-image:  url(../images/img_lef.png);
+	
+	}
+	
+nav#filter a {
+	color: #efdac9;
+
+	}
+
+
+
+
+/* Paralax Backgrounds                         15-
+================================================== */
+
+.parallax {
+	background-color: #000;
+		}
+
+/* Paralax Backgrounds PORTFOLIO/BLOG
+=========================================== */
+
+.parallax_blog{
+	background-color: #000;
+		}
+
+
+/* Animation polaroid                          16-
+================================================== */
+
+.grid figcaption {
+     background: #efdac9;
+	color: #cf852c;
+	}
+	
+.grid figcaption h3 {
+		color: #28221a;
+	}
+
+
+
+.grid figcaption a {
+	
+	background: #ed4e6e;
+	color: #fff;
+	}
+
+
+li.polaindie.frame:hover {
+		border: 10px solid #efdac9;
+	}
+
+
+
+
+/*
++----------------------------------------------------------------+
+|  SHORT CODE
++----------------------------------------------------------------+
+*/
+
+
+
+/* Subtitle 2 Row                              17-
+================================================== */
+
+.fancy span {
+		color: #cf852c;
+	}
+
+.fancy span:before,
+.fancy span:after {
+     border-bottom: 1px solid #cf852c;
+	border-top: 1px solid #cf852c;
+	}
+
+
+/* Subtitle 1 Row                              18-
+================================================== */
+
+
+.fancy_one span {
+		color: #cf852c;
+		}
+
+.fancy_one span:before,
+.fancy_one span:after {
+	border-bottom: 1px solid #cf852c;
+	}
+
+/* Toggle & Accordion                          19-
+================================================== */
+
+/*  Toggle  */
+
+.accordion-group {
+    	background-image: url(../images/bg_widget.jpg);
+  	color: #fff;
+  	  	}
+  	  	
+.accordion-heading .accordion-toggle {
+		color: #efdac9;
+	  	}
+.accordion-heading:hover .accordion-toggle,
+.accordion-heading:hover .accordion-toggle.inactive {
+	color:#efdac9;
+  	}
+a.accordion-toggle {
+	color: #efdac9 ;
+  	}
+a.accordion-toggle:hover {
+  	color: #28221a ;
+  	}
+.accordion-heading .accordion-toggle.active {
+  	color:#28221a;
+  	}
+.accordion-heading .accordion-toggle.inactive {
+  	}
+.indicator {
+	color: #efdac9 ;
+  	}
+.indicator_area {
+	color: #efdac9 ;
+  	}
+.accordion-heading.accordionize .accordion-toggle span,
+.accordion-heading.togglize .accordion-toggle span {
+  	color: #23262C;
+  	}
+.accordion-heading:hover .accordion-toggle span {
+  	color: #FFFFFF;
+  	}
+.accordion-heading .accordion-toggle.active span,
+.accordion-heading:hover .accordion-toggle.inactive span {
+	color: #FFFFFF;	
+  	}
+.accordion-inner {
+  	background: #efdac9;
+  	color: #28221a;
+  	}
+
+/*  Accordion  */
+
+
+.panel-default {
+	background-image: url(../images/bg_widget.jpg);
+  	}
+  	
+.panel-default a {
+  	color: #efdac9;	
+  	}
+
+.panel-default a:hover {
+  	color: #333333;	
+  	}
+  	
+.panel-body {
+	background: #efdac9;
+     color: #28221a;
+  	}
+  	
+.panel-default > .panel-heading {
+	background-image: url(../images/bg_widget.jpg) !important;
+	  	}
+  	
+.panel-group {
+  	display: inline;
+  	}
+
+.vintage_bottom {
+	
+	background-image: url(../images/bg_bottom.png);
+	background-size: 73px 7px;
+	z-index: 9999999;
+	clear: both;
+		}
+
+
+/* Tab                                         20-
+================================================== */
+
+.nav-tabs > li > a {
+	background-image: url(../images/bg_widget.jpg);
+	color: #efdac9;
+		}
+
+.nav-tabs > li > a {
+		color: #efdac9 !important;
+	}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	color: #28221a !important;
+		}
+
+.tab-content {
+		background: #efdac9;
+	color: #28221a;
+	}
+
+.tab-content > .active {
+	background: #efdac9;
+	color: #28221a;
+	}
+	
+	
+/* Blockquote                                  21-
+================================================== */
+
+blockquote {
+	border-left: 5px solid #cf852c;
+	}
+
+
+blockquote small {
+		color: #efdac9;
+	}
+
+blockquote.pull-right {
+		border-right: 5px solid #cf852c;
+	}
+
+/* Contacts                                    22-
+================================================== */
+
+.widget_contact_footer {
+	color: #efdac9;
+}
+.widget_contact_footer ul {
+	color: #efdac9;
+	}
+
+li.type_contact {
+	color: #efdac9;
+	}
+
+
+
+
+/*  Sections ShortCode - Blog Full and With Sidebar       23-
+============================================================= */
+
+
+/* Mobile media queries for blog sections */
+
+	
+.col-blog-7 h2.headline a {
+	color: #efdac9;
+}	
+.col-blog-7 h2.headline a:hover {
+	color: #cf852c;
+}	
+
+.w_blogpost {
+		color: #efdac9;
+	}
+.w_blogpost.w_blogpost_date a i {
+	color: #efdac9;
+	}
+.w_blogpost.w_blogpost_author a i {
+	color: #efdac9;
+	}
+
+
+.w_blogpost.w_blogpost_comments a i {
+	color: #efdac9;
+}
+
+p.read_more a i {
+	color: #efdac9;
+	}
+
+
+
+/*  Single Box                                 24-
+================================================== */
+	
+.tit_last_work {
+	border-top: solid 1px #efdac9; 
+	border-bottom: solid 1px #efdac9; 
+	color: #efdac9;
+	}
+	
+.tit_last_work.select_last_work {
+	border-top: solid 1px #cf852c; 
+	border-bottom: solid 1px #cf852c; 
+	}
+	
+.select_last_work {
+	background-color: #cf852c !important; 
+	}
+
+
+/* Short Code tooltip
+================================================== */
+.tooltip-inner {
+  color: #efdac9;
+   background-color: #cf852c;
+}
+
+
+.tooltip.top .tooltip-arrow {
+    border-top-color: #cf852c;
+}
+
+.tooltip.top-left .tooltip-arrow {
+  border-top-color: #cf852c;
+}
+
+.tooltip.top-right .tooltip-arrow {
+   border-top-color: #cf852c;
+}
+
+.tooltip.right .tooltip-arrow {
+ 
+  border-right-color: #cf852c;
+}
+
+.tooltip.left .tooltip-arrow {
+   border-left-color: #cf852c;
+}
+
+.tooltip.bottom .tooltip-arrow {
+ 
+  border-bottom-color: #cf852c;
+}
+
+.tooltip.bottom-left .tooltip-arrow {
+ 
+  border-bottom-color: #cf852c;
+}
+
+.tooltip.bottom-right .tooltip-arrow {
+   border-bottom-color: #cf852c;
+}
+
+
+
+
+/*
++----------------------------------------------------------------+
+|  WIDGET
++----------------------------------------------------------------+
+*/
+
+
+
+/* Widgets - Modern Vintage Sidebar                                   25-==========================================================================*/
+
+.textwidget {
+	color: #28221a;
+}
+
+.tit_widget {
+		background-image: url(../images/bg_widget.jpg);
+		color: #efdac9;
+		}
+	
+.box_widget {
+		color: #cf852c;
+	      background-color: #efdac9;
+
+	}
+.box_widget_no_title {
+		color: #cf852c;
+		background-color: #efdac9;
+		}
+
+	
+.box_widget p {
+		color: #cf852c;
+	}
+	
+.box_widget a {
+		color: #352130;
+	}
+	
+.box_widget a:hover {
+		color: #cf852c;
+	}
+		
+.tit_widget_bottom {
+	background-image: url(../images/bg_bottom.png);
+	}
+	
+.textwidget {
+		color: #35211d;
+	}
+
+
+
+/* Widget archive - category                  25-1
+================================================== */
+
+
+
+.box_widget li {	
+	border-bottom: solid 1px #EBB5AB;
+	}
+
+.box_widget li a {
+	color: #28221a;
+	}
+
+.box_widget li a:hover {
+	color: #cf852c;
+	}
+
+/* Widget Display as dropdown                 25-2
+================================================== */
+
+
+.box_widget select {
+		background: #efdac9;
+          border: 1px solid #28221a;
+		color: #28221a;
+		background-image: url(../images/resp_frec.png);
+		background-position: center right;
+	     background-repeat: no-repeat;
+		}
+
+/* Widget Search                              25-3
+================================================== */
+
+.box_widget .widget_search input[type="search"] {
+		background: #efdac9;
+          border: 1px solid #28221a;
+          color: #28221a;
+		background-image: url(../images/resp_search.png);
+		background-position: center right;
+		background-repeat: no-repeat;
+		}
+		
+.box_widget_no_title .widget_search input[type="search"] {
+		background: #efdac9;
+          border: 1px solid #28221a;
+          color: #28221a;
+		background-image: url(../images/resp_search.png);
+		background-position: center right;
+		background-repeat: no-repeat;
+		}
+	
+::-webkit-input-placeholder {
+	color: #28221a;
+	}
+:-moz-placeholder { /* Firefox 18- */
+	color: #28221a;
+	}
+::-moz-placeholder {  /* Firefox 19+ */
+	color: #28221a;
+	}
+:-ms-input-placeholder {  
+	color: #28221a;
+	}
+	
+	
+	
+
+/* Widget Head Search                         25-4
+================================================== */
+	
+
+/* search input field */
+.widget_navigation input[type=search] {
+	background: #cf852c;
+	color: #efdac9;
+		}
+		
+/* placeholder */
+.widget_navigation input:-moz-placeholder {
+	color: #efdac9;
+	}
+.widget_navigation input::-webkit-input-placeholder {
+	color: #efdac9;
+	}
+
+
+/* Social Icon Modern-Vintage                 25-5
+================================================== */
+
+a.social_icon i {
+	color: #efdac9;
+		}
+
+a.social_icon i:hover {
+	color: #28221a;
+		}
+	
+
+/* Testimonial Flex Slider                    25-6
+================================================== */
+
+.indie-testimonials-container .flex-control-nav li a {
+    border: 2px solid #cf852c;
+  
+    }
+    
+.indie-testimonials-container .flex-control-nav li a.flex-active, 
+.indie-testimonials-container .flex-caption,
+.indie-testimonials-container .flex-control-nav li a:hover {
+    background: #cf852c;
+    }
+    
+.testimonial-builder.white .indie-testimonials-container .flex-control-nav li a {
+    border-color: #cf852c;
+    
+	}
+.testimonial-builder.white .indie-testimonials-container .flex-control-nav li a.flex-active, 
+.testimonial-builder.white .indie-testimonials-container .flex-caption,
+.testimonial-builder.white .indie-testimonials-container .flex-control-nav li a:hover {
+    background: #cf852c;
+	}
+
+
+
+/* Widget Social                              25-7
+================================================== */
+
+.box_widget a.social_icon i {
+	color: #28221a;
+		}
+
+.box_widget a.social_icon i:hover {
+	color: #cf852c;
+		}
+
+
+/* Widget Twitter                             25-8
+================================================== */
+
+.box_widget .indie_widget_twitter li span {
+     color: #1a0f0c;
+	}
+
+.box_widget .indie_widget_twitter li p span {
+	color: #cf852c;
+	}
+	
+.widget .indie_widget_twitter {
+	color: #28221a;
+	}
+
+.widget .indie_widget_twitter li a {
+	color: #cf852c;
+	}
+.widget .indie_widget_twitter li a:hover {
+	color: #1f1311;
+	}
+.widget span.followtwit {
+	color: #000;
+		}
+.widget span.followtwit:hover {
+	color: #1f1311;
+	}
+
+/*  line twitter siderbar */
+
+
+.fancy_one_tw_sider i {
+	color: #cf852c;
+	}
+
+.fancy_one_tw_sider span {
+	color: #cf852c;
+	}
+
+.fancy_one_tw_sider span:before,
+.fancy_one_tw_sider span:after {
+	border-bottom: 1px solid #28221a;
+	}
+
+
+/*  twitter shortcode */
+
+.indie_widget_twitter {
+	color: #efdac9;
+	}
+
+
+
+/* Follow our twitter shortcode */
+span.followtwit {
+		color: #efdac9;
+	
+	}
+
+
+
+/* Widget Flickr                              25-9
+================================================== */
+
+
+.flickrfeed a {
+		border: 5px solid #fff;
+	}
+
+
+
+/* Widget Instagram                          25-10
+================================================== */
+
+
+#instafeed a {
+		border: 5px solid #fff;
+	}
+
+
+
+
+/* Widget Tag Cloud                          25-11
+================================================== */
+
+
+	
+.tagcloud li {
+	background: #cf852c url(../images/img_lef_tag.jpg) left center no-repeat;
+	background-size: 15px 23px;
+
+	}
+		
+.tagcloud ul li a {
+	color: #efdac9 !important;
+		}
+
+
+
+
+/* Botton to Top                               27-
+================================================== */
+
+#back-to-top {
+		background-image: url(../images/scroll_arrow.png);
+		}
+
+
+#back-to-top i {
+	
+	color: #efdac9;
+	
+	}
+
+
+/* Preloader flex                              28-
+================================================== */
+
+.loading_slide_portfolio {
+      background: transparent url('../images/loadinfo.gif');
+      }
+
+
+
+/* Comments Style                              29-
+================================================== */
+
+
+.comments-title, 
+.pings-title, 
+#reply-title {
+	
+	border-bottom: 1px solid #cf852c;
+	color: #cf852c;
+	
+	}
+.comment-cont {
+	border-bottom: 1px solid #cf852c;
+	}
+ul.children .comment-cont {
+	border-bottom: none !important;
+	}
+
+.comment-cont p {
+	color: #efdac9;
+		}
+.comment-side .avatar {
+
+	background-color: #efdac9;
+	}
+  .bot_polar{
+    background-color: #efdac9;
+       }
+
+.comment-author cite, 
+.comment-author cite a {
+	color: #cf852c;
+	
+	}
+.comment-author cite a:hover {
+	color: #E96045;
+	}
+.comment-author a {
+	color: #efdac9;
+	}
+.comment-author a:hover {
+	color: #cf852c;
+	}
+.comment-meta, 
+.comment-meta a {
+	color: #818B92;
+	
+	}
+.comment-meta a:hover {
+	color: #E96045;
+	}
+
+.comment-meta a {
+	color: #efdac9;
+     background-color: #cf852c;
+
+	
+	}
+.comment-meta a:hover {
+	background-color: #efdac9;
+	color: #1b1111;
+	}
+	
+.badge_author {
+		background: #cf852c;
+	}
+
+/* Comment Form */
+
+
+#commentform span.required {
+	color: #E96045;
+	}
+
+#commentform input, 
+#commentform textarea {
+	
+	border: 1px solid #907667; 
+	background: #efdac9;
+		color: #cf852c;
+		}
+
+#commentform input:focus,
+#commentform textarea:focus {
+	border-color: #C5C5C5;
+	background: #FFFFFF;
+	color: #1b1111;
+	}
+
+
+#commentform #submit {
+	color: #efdac9;
+	background-image:url(../images/bg_load_ribbon.png);
+	background-size: 225px 40px;
+	background-color: transparent;
+	width: 226px;
+
+  transition: all 0.3s ease 0s;
+     -webkit-transition: all 0.3s ease 0s;
+     -o-transition: all 0.3s ease 0s;
+     -moz-transition: all 0.3s ease 0s;
+		}
+
+#commentform #submit:hover {
+	color: #1b1111;
+	
+  transition: all 0.3s ease 0s;
+     -webkit-transition: all 0.3s ease 0s;
+     -o-transition: all 0.3s ease 0s;
+     -moz-transition: all 0.3s ease 0s;
+	}
+
+
+
+	
+/* Contact Form                                31-
+================================================== */
+
+
+.wpcf7 .watermark {
+	color: #cf852c !important;
+	}
+
+.wpcf7 input, 
+.wpcf7 textarea {
+		border: 1px solid #DFDFDF;
+
+	background: #efdac9;
+		color: #211310;
+		}
+
+.wpcf7 input:focus, 
+.wpcf7 textarea:focus {
+	border-color: #efdac9;
+	background: #FFFFFF;
+		color: #56646F;
+	}
+
+.wpcf7 input {
+		border: 1px solid #907667;
+	}
+
+.wpcf7 textarea {
+		border: 1px solid #907667;
+	}
+
+.wpcf7 .wpcf7-submit {
+	
+	background-color: #cf852c;
+	color: #efdac9;
+	
+	}
+
+.wpcf7 .wpcf7-submit:hover,
+.wpcf7 .wpcf7-submit:focus,
+.wpcf7 .wpcf7-submit:active {
+	background-color: #efdac9;
+	color: #1b1111;
+	}
+
+.wpcf7-form.invalid input.wpcf7-not-valid,
+.wpcf7-form.invalid textarea.wpcf7-not-valid,
+.wpcf7-form input:focus:invalid:focus,
+.wpcf7-form textarea:focus:invalid:focus {
+	border-color: #E96045;
+	
+	}
+
+	
+/* FlexSlider                                  32-
+================================================== */
+/* Direction Nav */
+.flex-direction-nav a {
+background: url(../images/bg_direction_nav.png) no-repeat 0 0; 
+background-size: 93px 43px;
+}
+
+
+
+
+/* Navigation                                  33-
+================================================== */
+
+
+a.page-numbers {
+	color: #efdac9;
+	}
+
+.indie_pagination .page-numbers:hover {
+	color: #efdac9;
+	background-color: #cf852c;
+}
+
+.page-numbers.current {
+	background-color: #cf852c;
+	color: #efdac9;
+	}
+
+.next {
+	border-left: 1px solid #efdac9;
+	}
+
+.prev {
+	border-right: 1px solid #efdac9;
+	}
+
+span.dots {
+	color: #efdac9;
+	}
+
+
+
+
+
+/*  Loading color                                34-
+================================================== */
+
+/*
+#qLoverlay {
+	background-color: #1b1716 !important;
+}
+#qLpercentage {
+	color: #efdac9 !important;
+}
+
+
+#qLbar {
+	background-color: #cf852c !important;
+}
+*/
+
+
+

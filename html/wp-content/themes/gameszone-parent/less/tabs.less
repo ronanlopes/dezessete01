@@ -1,0 +1,170 @@
+/*-----------------------------------*/
+/* Tabs Layout */
+/*-----------------------------------*/
+
+/* Top tabs */
+/*-----------------------------------*/
+.top-tabs {
+  font-family: @font-family-serif;
+  font-size: @font-size-large;
+  font-weight: bold;
+
+  > li {
+    border-left: 1px solid @border-line;
+    position: relative;
+
+    &:first-child {
+      border: none;
+    }
+
+    > a {
+      padding: 15px 15px 18px 15px;
+      line-height: 1.5em;
+
+      &:extend(.titles-link-hover all);
+
+      i {
+        position: relative;
+        top: 4px;
+        margin-right: 10px;
+        font-size: 150%;
+
+        &.tficon-joystick {
+          top: 2px;
+        }
+      }
+    }
+
+    > a:hover,
+    > a:focus,
+    &.active a{
+      background: none;
+      color: @brand-primary;
+    }
+
+    &.active a:before{
+      content:"";
+      display:block;
+      width:0;
+      height: 0;
+      border-style: solid;
+      border-width: 10px 8px 0 8px;
+      border-color: #fff  transparent transparent transparent;
+      position:absolute;
+      top: 100%;
+      left: 50%;
+      margin-left:-8px;
+    }
+  }
+}
+@media (max-width: @screen-xs-max) {
+  .top-tabs {
+    font-size: @font-size-base * 1.2;
+    text-align: center;
+
+    > li {
+      display: inline;
+
+      > a {
+        display: inline-block;
+        padding: 10px 12px 13px 12px;
+        margin-bottom: 0;
+        float: none;
+
+        i {
+          display: none;
+        }
+      }
+      &.active a:before {
+        display: none;
+      }
+    }
+  }
+}
+
+/* Framed Tabs */
+/*-----------------------------------*/
+.tabs_framed {
+  margin-bottom:30px;
+  padding:0
+}
+.tabs_framed .nav-tabs {
+  border-radius: 4px 4px 0 0;
+
+  li {
+    padding-top: 4px;
+
+    &.active {
+      padding-top: 0;
+    }
+
+    a {
+      color: @brand-primary;
+      border-radius: 4px 4px 0 0;
+      background: #f2f2f2;
+      border-color: @border-line;
+      border-bottom-color: @border-line;
+      padding: 8px 15px;
+      font-size: @font-size-base;
+
+      &:hover {
+        border-color: #ddd;
+      }
+    }
+    &.active a {
+      color: #d1505f;
+      background: #fff;
+      padding: 10px 15px;
+      border-bottom-color: #fff;
+
+      &:hover {
+        border-color: #ddd;
+        border-bottom-color: #fff;
+      }
+    }
+  }
+}
+
+.tabs_framed .nav-justified li {
+  padding-top: 0;
+
+  a {
+    padding: 6px 15px 10px 15px;
+    line-height: 1.2em;
+  }
+}
+
+.tabs_framed .tab-content {
+  padding:15px;
+  background:#fff;
+  -webkit-border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+  border: 1px solid #DDDDDD;
+  border-top: none;
+}
+.tabs_framed.no-padding .tab-content {
+  padding: 0;
+}
+
+.entry-content .tab-content h2,
+.entry-content .tab-content h3,
+.entry-content .tab-content h4,
+.entry-content .tab-content h5,
+.entry-content .tab-content h6 {
+  margin:5px 0 10px 0;
+}
+/* small tabs */
+.small_tabs .nav-tabs li a {
+  padding: 4px 10px;
+  font-size: 13px;
+}
+.small_tabs .nav-tabs li.active a {
+  padding: 6px 10px;
+}
+.small_tabs .nav-justified li a {
+  padding: 5px 10px 6px 10px;
+}
+.small_tabs .nav-justified li.active a {
+  padding-top: 8px;
+}
