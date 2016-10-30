@@ -1,0 +1,73 @@
+*** Theme Config Changelog ***
+
+ 2014.10.07 - version 1.0.6
+ * fixed filter pagination
+	gameszone-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+ * minor changes
+	gameszone-parent/theme_config/extensions/shortcodes/shortcodes/game_platforms.php
+	gameszone-parent/theme_config/extensions/shortcodes/shortcodes/latest_news.php
+	gameszone-parent/theme_config/extensions/shortcodes/shortcodes/news.php
+	gameszone-parent/theme_config/extensions/slider/designs/carousel_medium/template.php
+	gameszone-parent/theme_config/extensions/slider/designs/home/template.php
+	gameszone-parent/theme_config/extensions/slider/designs/video/template.php
+	gameszone-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+	gameszone-parent/theme_config/widgets/TFuse_Widget_Tabs.php
+	gameszone-parent/theme_config/options/admin_options.php
+
+ 2014.09.25 - version 1.0.5
+ * added sliders interval and newsletter subscription
+	gameszone-parent/theme_config/extensions/shortcodes/shortcodes/newsletter.php
+	gameszone-parent/theme_config/extensions/shortcodes/shortcodes/sliders.php
+	gameszone-parent/theme_config/extensions/slider/designs/carousel/options/carousel_options.php
+	gameszone-parent/theme_config/extensions/slider/designs/carousel/template.php
+	gameszone-parent/theme_config/extensions/slider/designs/carousel_medium/options/carousel_medium_options.php
+	gameszone-parent/theme_config/extensions/slider/designs/carousel_medium/template.php
+	gameszone-parent/theme_config/extensions/slider/designs/content/options/content_options.php
+	gameszone-parent/theme_config/extensions/slider/designs/content/template.php
+	gameszone-parent/theme_config/extensions/slider/designs/home/options/home_options.php
+	gameszone-parent/theme_config/extensions/slider/designs/home/template.php
+	gameszone-parent/theme_config/widgets/TFuse_Widget_Newsletter.php
+ * search pagination
+	gameszone-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+ * gallery filter changes
+	gameszone-parent/theme_config/extensions/shortcodes/shortcodes/game_platforms.php
+	gameszone-parent/theme_config/theme_includes/AJAX_CALLBACKS.php
+	gameszone-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+ * platforms si genres game links
+	gameszone-parent/theme_config/common_includes/CUSTOM_POSTS.php
+ * slider carousel post title
+	gameszone-parent/theme_config/extensions/shortcodes/shortcodes/game_platforms.php
+	gameszone-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+ * minor changes for sidebar
+	gameszone-parent/theme_config/extensions/sidebars/includes/sidebars_init.php
+ 
+ 2014.08.11 - version 1.0.4
+ * fixed pending reviews
+	gameszone-parent/theme_config/extensions/shortcodes/shortcodes/game_platforms.php
+	gameszone-parent/theme_config/extensions/shortcodes/shortcodes/latest_posts.php
+	gameszone-parent/theme_config/extensions/shortcodes/shortcodes/latest_reviews.php
+	gameszone-parent/theme_config/extensions/shortcodes/shortcodes/popular_posts.php
+	gameszone-parent/theme_config/extensions/shortcodes/shortcodes/sliders.php
+	gameszone-parent/theme_config/theme_includes/AJAX_CALLBACKS.php
+
+ 2014.08.06 - version 1.0.3
+ * fixed display author name
+	gameszone-parent/theme_config/theme_includes/AJAX_CALLBACKS.php
+ * minor changes
+	gameszone-parent/theme_config/extensions/shortcodes/shortcodes/socials.php
+	gameszone-parent/theme_config/options/galleries_options.php
+	gameszone-parent/theme_config/options/review_options.php
+	gameszone-parent/theme_config/options/video_options.php
+	gameszone-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+
+ 2014.07.01 - version 1.0.2
+ * minor changes for widget recent post comments
+	gameszone-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+	gameszone-parent/theme_config/widgets/TFuse_Widget_Recent_Posts.php
+
+ 2014.06.26 - version 1.0.1
+ * minor changes for shortcode news
+	gameszone-parent/theme_config/extensions/shortcodes/shortcodes/news.php
+
+ 2014.05.23 - version 1.0
+ * First release!

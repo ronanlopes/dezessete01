@@ -1,0 +1,141 @@
+/*-----------------------------------*/
+/* Comments List Layout */
+/*-----------------------------------*/
+
+.comments-area {
+  position: relative;
+}
+.link-add-comment,
+.comment-author{
+  font-family: @font-family-serif;
+  font-size: @font-size-h5;
+  font-weight: bold;
+
+  a { &:extend(.titles-link-hover all); }
+}
+.link-add-comment {
+  color: @brand-secondery;
+}
+.comments-title {
+  color: @gray-dark;
+  font-size: @font-size-h4;
+  padding-bottom: 20px;
+  border-bottom: 1px solid @border-line;
+  margin-bottom: 20px;
+}
+.comment-list {
+  margin: 0;
+  padding: 20px 0 0 0;
+
+  .comment,
+  .pingback{
+    list-style: none;
+  }
+}
+
+.comment-body {
+  padding: 10px 0;
+  &:extend(.clearfix all);
+}
+.pingback .comment-body {
+  padding-top: 0;
+}
+
+// local veriables
+@avatar-size:   30px;
+@avatar-margin: 10px;
+
+.comment-avatar {
+  float: left;
+  .square(@avatar-size);
+  margin-right: @avatar-margin;
+
+  img {
+    border-radius: 50%;
+  }
+}
+.comment-aside{
+  padding-left: (@avatar-size + @avatar-margin);
+}
+.children {
+  padding-left: 0;
+}
+.comment-meta {
+  color: @gray-light;
+  margin-bottom: 10px;
+  line-height: 1em;
+}
+.comment-author {
+  display: block;
+  margin-bottom: 5px;
+}
+.comment-content {
+  color: @gray-dark;
+  border-bottom: 1px solid @border-line;
+  padding-bottom: 10px;
+}
+.comment-reply-link {
+  margin-left: 5px;
+  text-transform: lowercase;
+}
+.comment.bypostauthor > article .comment-author a{
+  color: @brand-primary;
+}
+
+@media (min-width: @screen-xs-min) {
+  .comment-author {
+    display: inline-block;
+    float: left;
+  }
+  .comment-meta {
+    text-align: right;
+  }
+  .link-add-comment {
+    position: absolute;
+    top: 0.2em;
+    right: 0;
+  }
+}
+@media (min-width: @screen-sm-min) {
+  .link-add-comment,
+  .comment-author {
+    font-size: @font-size-h5;
+  }
+  .comments-title {
+    font-size: @font-size-h3;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: @screen-md-min) {
+  .link-add-comment,
+  .comment-author {
+    font-size: @font-size-h4;
+  }
+  .comments-title {
+    font-size: @font-size-h2;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .comment-body {
+    padding: 20px 0;
+  }
+  .comment-content {
+    padding-bottom: 20px;
+  }
+
+  @avatar-size:   70px;
+  @avatar-margin: 20px;
+
+  .comment-avatar {
+    .square(@avatar-size);
+    margin-right: @avatar-margin;
+  }
+  .comment-aside{
+    padding-left: (@avatar-size + @avatar-margin);
+  }
+  .children .depth-2 {
+    margin-left: (@avatar-size + @avatar-margin);
+  }
+}

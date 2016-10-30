@@ -1,0 +1,38 @@
+*** GamesZone Changelog ***
+
+ 2014.10.07 - version 1.0.4
+ * fixed filter pagination
+	gameszone-parent/search.php
+ * minor changes
+	gameszone-parent/footer.php
+	gameszone-parent/header-socials.php
+	gameszone-parent/header.php
+	gameszone-parent/less/general.less
+	gameszone-parent/listing-blog.php
+	gameszone-parent/style.css
+ 
+ 2014.09.25 - version 1.0.3
+ * minor changes
+	gameszone-parent/less/widgets.less
+	gameszone-parent/style.css
+	gameszone-parent/style.less
+ * gallery filter changes
+	gameszone-parent/listing-gallery.php
+ 
+ 2014.08.11 - version 1.0.2
+ * minor changes for comment form
+	gameszone-parent/comments.php
+
+ 2014.08.06 - version 1.0.1
+ * fixed display author name
+	gameszone-parent/single-game.php
+ * fixed facebook like
+	gameszone-parent/content-single-review.php
+	gameszone-parent/content-single.php
+ * minor changes
+	gameszone-parent/less/theme-components.less
+	gameszone-parent/search.php
+	gameszone-parent/style.css
+
+ 2014.05.23 - version 1.0
+ * First release!

@@ -16,35 +16,11 @@ if ( ! function_exists( 'tfuse_add_css' ) ) :
         
         wp_register_style( 'bootstrap-theme',  tfuse_get_file_uri('/css/bootstrap-theme.css', false, '') );
         wp_enqueue_style( 'bootstrap-theme' );
-        
-        if($TFUSE->request->isset_GET('color'))
-        {
-        	if($TFUSE->request->GET('color')=='red')
-        	{
-        		wp_register_style( 'style',  tfuse_get_file_uri('/style-red.css', true, '') );
-                        wp_enqueue_style( 'style' );
-        	}
-        	elseif($TFUSE->request->GET('color')=='blue')
-        	{
-        	       wp_register_style( 'style',  tfuse_get_file_uri('/style-blue.css', true, '') );
-                        wp_enqueue_style( 'style' );
-        	}
-        	elseif($TFUSE->request->GET('color')=='green')
-        	{
-        		wp_register_style( 'style',  tfuse_get_file_uri('/style-green.css', true, '') );
-                        wp_enqueue_style( 'style' );
-        	}
-        	else
-        	{
-        	   wp_register_style( 'style', get_stylesheet_uri());
-            	   wp_enqueue_style( 'style' );
-        	}
-        }
-        else
-        {
-      	    wp_register_style( 'style', get_stylesheet_uri());
+
+
+       wp_register_style( 'style',  tfuse_get_file_uri('/style-blue.css', true, '') );
             wp_enqueue_style( 'style' );
-        }
+      
 
         wp_register_style( 'prettyPhoto', TFUSE_ADMIN_CSS . '/prettyPhoto.css', false, '' );
         wp_enqueue_style( 'prettyPhoto' );

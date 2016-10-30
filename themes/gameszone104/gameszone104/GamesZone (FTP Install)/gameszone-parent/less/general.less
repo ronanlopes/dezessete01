@@ -1,0 +1,214 @@
+/*-----------------------------------*/
+/* General Styles */
+/*-----------------------------------*/
+body {
+  background-color: @body-bg;
+  font-family: @font-family-base;
+  font-size: @font-size-base;
+  font-weight: normal;
+  color: @text-color;
+  line-height: @line-height-base;
+}
+
+::-moz-selection {
+  background: @gray-darker;
+  color: #fff;
+  text-shadow: none;
+}
+::selection {
+  background: @gray-darker;
+  color: #fff;
+  text-shadow: none;
+}
+.site {
+  width:100%;
+  position:relative;
+}
+a {
+  color: @link-color;
+  outline:none;
+}
+a:hover,
+a:focus {
+  color: @link-hover-color;
+  text-decoration: none;
+}
+a:active {
+  background-color: transparent;
+}
+// for extending
+.titles-link-hover {
+  color: @gray-dark;
+
+  &:hover {
+    color: @brand-secondery;
+  }
+}
+img {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+}
+.comment-content img,
+.entry-content img,
+.entry-summary img,
+.widget img,
+.wp-caption,
+.entry-content embed,
+.entry-content iframe{
+  max-width: 100%;
+}
+.entry-content iframe {
+  border: none;
+}
+
+dt {
+  margin-top: @font-size-base;
+}
+
+/* Floating */
+/*-----------------------------------*/
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+.alignleft {
+  float: left
+}
+.alignright {
+  float: right
+}
+img.aligncenter,
+.wp-caption{
+  margin-bottom: 20px;
+}
+img.alignleft,
+.wp-caption.alignleft{
+  margin: 0 20px 5px 0;
+}
+img.alignright,
+.wp-caption.alignright{
+  margin: 0 0 5px 20px;
+}
+.wp-caption img[class*="wp-image-"] {
+  display: block;
+  margin: 0;
+}
+.wp-caption {
+  color: #767676;
+}
+.wp-caption-text {
+  font-size: @font-size-base;
+  font-style: italic;
+  line-height: 1.5;
+  margin: 9px 0;
+  padding-right: 10px;
+}
+
+/* Framed boxes */
+/*-----------------------------------*/
+.frame_left,
+.frame_right,
+.frame_center,
+.frame_box {
+  margin:0;
+  display:inline-block;
+  position:relative;
+  padding: 5px;
+  background: #f2f2f2;
+  border:1px solid @border-line;
+}
+.frame_box {
+  display:inline-block;
+  margin-bottom:15px;
+  max-width:100%
+}
+.frame_box img {
+  width:auto;
+  max-width:100%;
+  height:auto
+}
+.frame_left {
+  float:left;
+  display:block;
+  margin:0 20px 5px 0
+}
+.frame_right {
+  float:right;
+  display:block;
+  margin:0 0 5px 20px
+}
+.frame_center {
+  border:none;
+  display:block;
+  margin:0 auto 20px auto;
+  text-align:center
+}
+
+
+/* Clear floats */
+/*-----------------------------------*/
+.clear {
+  background: none;
+  border: 0;
+  clear: both;
+  display: block;
+  float: none;
+  font-size: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0
+}
+.clearfix {
+  .clearfix();
+}
+
+/* Dividers */
+/*-----------------------------------*/
+.divider_space,
+.divider_space_thin,
+.divider_line{
+  clear: both;
+  display:block;
+  margin-bottom:40px;
+  padding-top:40px;
+  width:100%
+}
+.divider_space_thin {
+  margin-top:10px;
+  margin-bottom:10px
+}
+.divider_line {
+  border-bottom: 1px solid @border-line;
+}
+// Vertical divider lines in Rows with cols
+.row-lines-v [class^="col-"] {
+  border-left:1px solid #e5e5e5;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+  &:first-child {
+    border-left-color: transparent;
+  }
+}
+
+/* Rating */
+/*-----------------------------------*/
+.rating {
+  display: block;
+  border-radius: 50%;
+  background: @brand-primary;
+  color: #fff;
+  text-align: center;
+  .rating-size();
+}
+
+.video-slider-content iframe{
+  border:0
+}
