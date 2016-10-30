@@ -1,0 +1,113 @@
+/*-----------------------------------*/
+/* Tables */
+/*-----------------------------------*/
+
+// default styles
+table,
+th,
+td {
+  border: 1px solid @border-line;
+}
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-width: 1px 0 0 1px;
+
+  td,
+  th{
+    border-width: 0 1px 1px 0;
+  }
+}
+.entry-content th,
+.entry-content td,
+.comment-content th,
+.comment-content td{
+  padding: 7px 10px;
+}
+
+@media (max-width: @screen-xs-max) {
+  .entry-content th,
+  .entry-content td,
+  .comment-content th,
+  .comment-content td {
+    padding: 3px 4px;
+  }
+}
+
+.table {
+  border: none;
+  border-collapse: collapse;
+
+  td {
+    border-right: none;
+  }
+}
+
+/* Styled Tables */
+/*-----------------------------------*/
+
+.styled_table {
+  margin:10px 0 20px;
+
+  table {
+    border-collapse: collapse;
+    text-shadow: none;
+    width: 100%;
+    border-collapse: separate;
+    padding-bottom: 1px;
+    border: 1px solid @border-line;
+
+    tr > th,
+    tr > td	{
+      border-width: 1px 0 0 0;
+      padding: @table-cell-padding;
+      text-align:left
+    }
+    tr > th {
+      &:extend(.btn-default);
+      font-weight:normal;
+    }
+    tbody td {
+      background: @table-bg;
+      padding: @table-cell-padding;
+      font-size: @font-size-base;
+    }
+  }
+  thead > tr > th {
+    border-bottom: none;
+  }
+}
+// table striped
+.table-striped table {
+
+  > tbody > tr:nth-child(odd) td{
+    background-color: @table-bg-accent;
+  }
+  tr:first-child th{
+    border-top: 0
+  }
+}
+// table hover
+.table-hover table > tbody > tr:hover > td {
+  background-color: @table-bg-hover;
+}
+// table bordered
+.table-bordered {
+  border: none;
+
+  table {
+    border-collapse: collapse;
+
+    > thead,
+    > tbody,
+    > tfoot {
+      > tr {
+        > th,
+        > td {
+          border: 1px solid @table-border-color;
+        }
+      }
+    }
+  }
+}
